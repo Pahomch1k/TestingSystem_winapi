@@ -1,0 +1,147 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian (Russia) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOGEX 0, 0, 287, 295
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,24,254,50,14
+    LTEXT           "3. 80 / 10 = ?",IDC_STATIC,16,98,45,8
+    LTEXT           "4. 5 * 5 - 25 = ?",IDC_STATIC,16,153,53,8
+    LTEXT           "5. 81 / 9 = ?",IDC_STATIC,16,204,41,8
+    LTEXT           "6. 8 * 8 + 36 = ?",IDC_STATIC,170,7,56,8
+    LTEXT           "7. 34 - 9 = ?",IDC_STATIC,167,58,41,8
+    LTEXT           "8. 1 + 1 + 2 - 5 = ?",IDC_STATIC,169,101,64,8
+    LTEXT           "9. 2 + 2 * 23 = ?",IDC_STATIC,170,156,56,8
+    LTEXT           "10. 2 + 2 * 2 - 6 = ?",IDC_STATIC,168,206,66,8
+    GROUPBOX        "1. 2 + 2 * 2 = ?",IDC_STATIC,16,7,91,40
+    GROUPBOX        "2. 3 * 3 = ?",IDC_STATIC,16,53,91,40
+    CONTROL         "6",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,26,25,20,10
+    CONTROL         "8",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,53,25,20,10
+    CONTROL         "4",IDC_CHECK3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,76,25,20,10
+    CONTROL         "6",IDC_CHECK4,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,27,73,20,10
+    CONTROL         "3",IDC_CHECK5,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,55,73,20,10
+    CONTROL         "9",IDC_CHECK6,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,77,73,20,10
+    CONTROL         "45",IDC_CHECK7,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,23,117,24,10
+    CONTROL         "8",IDC_CHECK8,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,53,117,20,10
+    CONTROL         "64",IDC_CHECK9,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,75,117,24,10
+    CONTROL         "5",IDC_CHECK10,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,23,170,20,10
+    CONTROL         "0",IDC_CHECK11,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,53,170,20,10
+    CONTROL         "3",IDC_CHECK12,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,75,170,20,10
+    CONTROL         "10",IDC_CHECK13,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,25,220,24,10
+    CONTROL         "8",IDC_CHECK14,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,55,220,20,10
+    CONTROL         "9",IDC_CHECK15,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,77,220,20,10
+    CONTROL         "99",IDC_CHECK16,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,173,24,24,10
+    CONTROL         "100",IDC_CHECK17,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,203,24,28,10
+    CONTROL         "101",IDC_CHECK18,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,237,25,28,10
+    CONTROL         "25",IDC_CHECK19,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,169,75,24,10
+    CONTROL         "30",IDC_CHECK20,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,199,75,24,10
+    CONTROL         "35",IDC_CHECK21,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,233,75,24,10
+    CONTROL         "0",IDC_CHECK22,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,169,118,20,10
+    CONTROL         "1",IDC_CHECK23,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,199,118,20,10
+    CONTROL         "-1",IDC_CHECK24,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,233,118,23,10
+    CONTROL         "48",IDC_CHECK25,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,170,173,24,10
+    CONTROL         "58",IDC_CHECK26,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,200,173,24,10
+    CONTROL         "38",IDC_CHECK27,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,234,173,24,10
+    CONTROL         "6",IDC_CHECK28,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,170,223,20,10
+    CONTROL         "7",IDC_CHECK29,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,200,223,20,10
+    CONTROL         "0",IDC_CHECK30,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,234,223,20,10
+    CONTROL         "",IDC_PROGRESS1,"msctls_progress32",WS_BORDER,155,254,96,14
+    EDITTEXT        IDC_EDIT1,83,274,69,14,ES_AUTOHSCROLL
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 16
+        RIGHTMARGIN, 280
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 288
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_DIALOG1 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+#endif    // Russian (Russia) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
